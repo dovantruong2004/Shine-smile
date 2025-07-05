@@ -416,7 +416,7 @@ header {
   letter-spacing: 0%;
   color: #575f66;
 }
-.about__content .btn-more {
+.btn-more {
   margin-top: 38px;
   font-family: "Sora";
   font-weight: 400;
@@ -426,3 +426,89 @@ header {
   border-radius: 30px;
 }
 /* Member */
+.member {
+  margin-top: 121px;
+}
+.member-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.member__heading {
+  font-family: "Sora";
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 5rem;
+  line-height: 60px;
+  letter-spacing: 0%;
+  color: #10375c;
+  text-align: center;
+}
+.member .btn-more {
+  margin-top: 38px;
+}
+.member-list {
+  margin-top: 70px;
+  display: flex;
+  gap: 30px;
+}
+.member-item {
+  flex: 1;
+}
+.member-item__avatar {
+  background: #eaf6ff;
+  border-radius: 6px;
+}
+.member-item__name {
+  margin-top: 12px;
+  font-family: "Sora";
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 1.6rem;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #10375c;
+}
+.member-item__department {
+  font-family: "Sora";
+  font-weight: 300;
+  font-style: Light;
+  font-size: 1.4rem;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #575f66;
+}
+.member-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  margin-top: 38px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pagination-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid #575f66;
+  background: #fff;
+  cursor: pointer;
+}
+.pagination-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid #2e80ce;
+  background: #2e80ce;
+  cursor: pointer;
+}
+/* Install */
