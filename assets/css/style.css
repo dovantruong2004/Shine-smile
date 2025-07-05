@@ -177,12 +177,117 @@ header {
   object-fit: cover;
   border-radius: 6px;
 }
-.hero__img:nth-child(1){
-    position: relative;
-    margin-right: -6px;
+.hero__img:nth-child(1) {
+  position: relative;
+  margin-right: -6px;
 }
 .hero__img:nth-child(2) {
   width: 210px;
   height: 410px;
   border-radius: 0px 6px 6px 0;
+}
+/* Service */
+.service {
+  padding: 170px 0;
+}
+.service-heading {
+  font-family: "Sora", serif;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 5rem;
+  line-height: 60px;
+  letter-spacing: -2%;
+  text-align: center;
+  color: #10375c;
+}
+.service-desc {
+  margin-top: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 468px;
+  font-family: "Sora", sans-serif;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 1.8rem;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #575f66;
+}
+.service-now {
+  display: flex;
+  align-items: center;
+}
+.service__image img {
+  margin-top: 70px;
+  width: 570px;
+  height: 570px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.service__list {
+  margin-left: 130px;
+}
+.service-item {
+  display: flex;
+  padding: 20px 22px;
+  transition: 0.25s;
+}
+
+.service-item__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #eff6fd;
+  color: #10375c;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.05);
+}
+.service-item__body {
+  margin-left: 19px;
+}
+.service-item__heading {
+  font-family: "Sora";
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 1.8rem;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #10375c;
+}
+.service-item__desc {
+  margin-top: 8px;
+  font-family: "Sora";
+  font-weight: 300;
+  font-style: Light;
+  font-size: 1.6rem;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color: #575f66;
+}
+.service-item:hover {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 14px 28px #0000000d;
+  transition: 0.25s;
+}
+.service-item:hover .service-item__icon {
+  background: #2e80ce;
+  color: #fff;
+  transition: 0.25s;
+}
+.btn-service {
+  --height: 60px;
+  margin-top: 55px;
+  border-radius: 30px;
+  font-family: "Sora";
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 1.8rem;
+  line-height: var(--height);
+  letter-spacing: 0%;
+  text-align: center;
 }
